@@ -1,23 +1,26 @@
 #glovalDiv{
     display: flex;
     width: 100%;
-    
     align-items: center;
     justify-content: center;
 }
+
 #panel{
     display: flex;
     flex-wrap: wrap;
+    width: 550px;
     justify-content: center;
     background-color: rgb(250, 250, 250);
     border-radius: 20px;
     margin-top: 150px;
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
+
 #searchTitle{
     width: 100%;
     text-align: center;
 }
+
 #result{
     width: 90%;
     height: 150px;
@@ -31,6 +34,12 @@
     display: flex;
     width: 100%;
     align-items: center;
+    justify-content: center;
+}
+
+#searchD{
+    display: flex;
+    width: 100%;
     justify-content: center;
 }
 
